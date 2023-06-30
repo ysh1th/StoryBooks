@@ -4,8 +4,8 @@
   "description": "App to create public and private stories",
   "main": "app.js",
   "scripts": {
-    "start": "cross-en NODE_ENV=production node app",
-    "dev": "cross-en NODE_ENV=production nodemon app"
+    "start": "cross-env NODE_ENV=production node app",
+    "dev": "cross-env NODE_ENV=production nodemon app"
   },
   "author": "Yashwanth kar",
   "license": "MIT",
